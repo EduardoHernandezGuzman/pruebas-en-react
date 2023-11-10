@@ -18,23 +18,11 @@ const Contador = () => {
 
     return (
         <>
-            <div class="container text-center mt-4">
-                <div class="row align-items-start">
-                    <div class="col-6">
-                        <h1>Contador</h1>
-                        <h2>{valor}</h2>
-                        <button onClick={sumar} >Aumentar</button>
-                        <button onClick={reestablecer} >Reestablecer</button>
-                        <button onClick={restar} >Disminuir</button>
-                    </div>
-                    <div class="col-6">
-                        2
-                    </div>
-                    
-                </div>
-            </div>
-
-
+            <h1>Contador</h1>
+            <h2>{valor}</h2>
+            <button onClick={sumar} >Aumentar</button>
+            <button onClick={reestablecer} >Reestablecer</button>
+            <button onClick={restar} >Disminuir</button>
         </>
     );
 };

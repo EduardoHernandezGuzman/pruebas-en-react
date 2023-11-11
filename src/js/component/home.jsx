@@ -2,6 +2,7 @@ import React from "react";
 import Contador from "./contador";
 import Temporizador from "./temporizador";
 import Contadorregresivo from "./contadorregresivo";
+import Bombilla from "./bombilla";
 
 
 const Home = () => {
@@ -25,7 +26,7 @@ const Home = () => {
 						<Contadorregresivo />
 					</div>
 					<div class="col-6 bg-danger">
-						Cosa2
+						<Bombilla />
 					</div>
 
 				</div>

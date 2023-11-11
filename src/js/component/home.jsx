@@ -11,10 +11,10 @@ const Home = () => {
 		<>
 			<div class="container text-center mt-4">
 				<div class="row align-items-start">
-					<div class="col-6 bg-danger">
+					<div class="col-6 bg-info" style={{borderRadius: 10, padding: 20}}>
 						<Contador />
 					</div>
-					<div class="col-6  bg-primary">
+					<div class="col-6  bg-warning" style={{borderRadius: 10, padding: 20}}>
 						<Temporizador />
 					</div>
 
@@ -22,10 +22,10 @@ const Home = () => {
 			</div>
 			<div class="container text-center mt-5">
 				<div class="row align-items-start">
-					<div class="col-6 bg-primary">
+					<div class="col-6 bg-warning" style={{borderRadius: 10, padding: 20}}>
 						<Contadorregresivo />
 					</div>
-					<div class="col-6 bg-danger">
+					<div class="col-6 bg-info" style={{borderRadius: 10, padding: 20}}>
 						<Bombilla />
 					</div>
 

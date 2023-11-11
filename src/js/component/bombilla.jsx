@@ -12,7 +12,7 @@ const Bombilla = () => {
     return (
         <>
             <h1>La bombilla está:</h1>
-            {luz ? <h2>Encendida</h2> : <h2>Apagada</h2>}
+            {luz ? <h2 style={{color:"yellow"}}>Encendida</h2> : <h2>Apagada</h2>}
             <button onClick={interruptor} >Interruptor</button>
         </>
 

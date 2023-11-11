@@ -3,6 +3,7 @@ import Contador from "./contador";
 import Temporizador from "./temporizador";
 import Contadorregresivo from "./contadorregresivo";
 import Bombilla from "./bombilla";
+import ListadoPersonas from "./listadopersonas";
 
 
 const Home = () => {
@@ -27,6 +28,17 @@ const Home = () => {
 					</div>
 					<div class="col-6 bg-info" style={{borderRadius: 10, padding: 20}}>
 						<Bombilla />
+					</div>
+
+				</div>
+			</div>
+			<div class="container text-center mt-5">
+				<div class="row align-items-start">
+					<div class="col-6 bg-warning" style={{borderRadius: 10, padding: 20}}>
+						<ListadoPersonas />
+					</div>
+					<div class="col-6 bg-info" style={{borderRadius: 10, padding: 20}}>
+						
 					</div>
 
 				</div>

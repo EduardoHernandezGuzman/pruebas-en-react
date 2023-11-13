@@ -6,8 +6,11 @@ const Semaforo = () => {
 
     return (
 
-        <>
+        <>  
+            <h1>Enciende las luces del semaforo</h1>
+            <br />
             <div className="container text-center col-3">
+                
                 <div 
                     onClick={ () => SetColorSeleccionado("rojo")}
                     className={

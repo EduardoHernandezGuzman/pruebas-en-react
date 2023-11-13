@@ -4,6 +4,7 @@ import Temporizador from "./temporizador";
 import Contadorregresivo from "./contadorregresivo";
 import Bombilla from "./bombilla";
 import ListadoPersonas from "./listadopersonas";
+import Semaforo from "./semaforo";
 
 
 const Home = () => {
@@ -38,7 +39,7 @@ const Home = () => {
 						<ListadoPersonas />
 					</div>
 					<div class="col-6 bg-info" style={{borderRadius: 10, padding: 20}}>
-						
+						<Semaforo />
 					</div>
 
 				</div>

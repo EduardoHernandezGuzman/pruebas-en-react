@@ -1,0 +1,26 @@
+.circulo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    position: 50%;
+    margin: 5px;
+    
+}
+
+.rojo {
+    background-color: red;
+    
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+}
+
+.glow {
+    box-shadow: 0 0 28px 18px #ffffff;
+}

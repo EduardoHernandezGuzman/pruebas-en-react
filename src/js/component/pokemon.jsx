@@ -27,7 +27,7 @@ const Pokemon = () => {
             <h1>Pokédex <span><h6>(traídos desde API)</h6></span></h1>
             <br />
             {personaje.map ((i ,index)=>  
-            <p key={index} >{i.name}</p>  
+            <p key={index} >{(i.name).toUpperCase()}</p>
             )}
         </>
     );

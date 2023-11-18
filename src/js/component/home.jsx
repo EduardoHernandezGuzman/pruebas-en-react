@@ -6,6 +6,8 @@ import Bombilla from "./bombilla";
 import ListadoPersonas from "./listadopersonas";
 import Semaforo from "./semaforo";
 import Pokemon from "./pokemon";
+import Listadousuariosapi from "./listadousuariosapi";
+
 
 
 const Home = () => {
@@ -51,7 +53,7 @@ const Home = () => {
 						<Pokemon />
 					</div>
 					<div className="col-6 bg-warning" style={{borderRadius: 10, padding: 20}}>
-						
+						<Listadousuariosapi />
 					</div>
 
 				</div>
